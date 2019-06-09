@@ -1,0 +1,117 @@
+@charset "utf-8";
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    margin-top: 0;
+    color: #1c8adb;
+}
+.sign-in{
+    padding: 5px 10px;
+    width: 85px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #1c8adb;
+    color: #1c8adb;
+    border-radius: 5px;
+}
+.sign-in:hover{
+	background-color: #1c8adb;
+    color: #fff;
+	cursor: pointer;
+}
+.container a:hover {
+    text-decoration: underline;
+}
+.container .header a {
+    color: #3f8f8d;
+}
+.container a , .sign-in{
+    margin-top: 10px;
+}
+.navgation{
+    margin: 10px 0;
+}
+ul.list{
+    width: 90%;
+    margin: 0 auto;
+}
+ul.list li{
+    display: inline-block;
+    
+    margin-right: 28px;
+}
+ul.list li a{
+    text-decoration: none;
+    color: #3f8f8d;
+}
+.Head{
+    background-color: #343a40;
+    padding: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.Head section{
+    width: 45%;
+    margin-left: 50px;
+}
+.Head h1{
+    font-size: 48px;
+    font-style: italic;
+}
+.Head p{
+    font-size: 20px;
+        font-weight: 300;
+}
+.Head a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#posts h1{
+    color: #343a40;
+    font-size: 30px;
+    font-style: italic;
+}
+.contain{
+    margin-bottom: 15px;
+}
+.title{
+     font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.body{
+     color: gray;
+}
+.about{
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+}
+.about h2 , .archives h2 , .elsewhere h2{
+    color: #343a40;
+    font-size: 30px;
+    font-weight: bold;
+}
+.archives , .elsewhere{
+    padding: 5px 20px;
+}
+.archives ol , .elsewhere ol{
+    padding-left: 0;
+    list-style: none;
+}
+.archives ol li , .elsewhere ol li{
+    margin-bottom: 5px;
+}
+.archives ol a , .elsewhere ol a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Image/2144.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.edit-box{
+    width: 650px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+	border: 1px medium transparent;
+	border-radius: 70px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.edit-box h3{
+    margin: 0;
+    padding: 0;
+}
+p{
+	display: none;
+	margin-top: 0;
+	padding-top: 0;
+	color: red;
+}
+.edit-box input, .edit-box textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    color: #000;
+    font-size: 14px;
+}
+.edit-box input
+{
+  height: 50px;  
+}
+.edit-box textarea
+{
+  height: 100px;  
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+}
+.flex button
+{
+    border: none;
+    outline: none;
+    height: 50px;
+	width: 100px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.save{
+	background-color: green;
+}
+.cancel{
+	background-color: red;
+}
+.save:active
+{
+    cursor: pointer;
+    background-color: white;
+	color: green;
+}
+.cancel:active
+{
+    cursor: pointer;
+    background-color: white;
+	color: red;
+}
+.succ{
+	padding-top: 20px;
+	color: white;
+	font-size: 16px;
+}
